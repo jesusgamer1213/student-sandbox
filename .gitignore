@@ -5,10 +5,4 @@ logs/
 .git/
 *.pyc
 __pycache__/
-
-# Local directories (not part of project)
-opstasks/
-plugin-demo/
-quiz-game/
-quiz-play/
-ONBOARDING.md
+/tmp/
