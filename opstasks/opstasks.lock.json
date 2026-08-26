@@ -1,0 +1,16 @@
+{
+  "_comment": "Lockfile de tareas aprobadas por el equipo. Este archivo se versiona en el repo del cliente (no viene del registry). Solo se ejecuta una tarea si su hash coincide con lo aquí registrado.",
+  "registry_url": "https://registry.internal.example.com/opstasks",
+  "tasks": {
+    "cleanup_logs.py": {
+      "sha256": "8a6c89cbd9185bd6d29e093a4401cd848fead6d98c19f24e288cae0cb88369cf",
+      "reviewed_by": "sre-team",
+      "version": "1.0.0"
+    },
+    "disk_check.py": {
+      "sha256": "bd099200d2fedf508e5b4ac5cd2dc0e69ad031f37426cd09ce450e546b040935",
+      "reviewed_by": "sre-team",
+      "version": "1.0.0"
+    }
+  }
+}
