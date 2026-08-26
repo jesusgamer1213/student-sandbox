@@ -62,5 +62,11 @@ if __name__ == "__main__":
     results = [test1(), test2(), test3()]
 
     print("\n" + "=" * 40)
-    print("✅ Ready" if all(results) else "❌ Failed")
-    print("=" * 40)
+    if all(results):
+        print("✅ Ready")
+        print("=" * 40)
+        print("\nRunning full test...\n")
+        subprocess.run(["python3", str(Path(__file__).parent.parent / "execute.py"), "test"])
+    else:
+        print("❌ Failed")
+        print("=" * 40)
