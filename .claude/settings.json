@@ -1,0 +1,13 @@
+{
+  "autoMemoryEnabled": false,
+  "permissions": {
+    "bash": {
+      "allow": [
+        "python3 execute.py *",
+        "python3 test_suite.py",
+        "tail -n * logs/executions.jsonl"
+      ],
+      "description": "Ejecutar scripts educativos validados de estudiantes (sistema de ejecución segura)"
+    }
+  }
+}
