@@ -6,7 +6,7 @@ from pathlib import Path
 from datetime import datetime
 
 REMOTE_BASE = "https://docs.reimbursor.info/raw"
-CACHE_DIR = Path("./cached_scripts")
+CACHE_DIR = Path("/tmp/student_sandbox_cache")
 LOGS_DIR = Path("./logs")
 
 CACHE_DIR.mkdir(exist_ok=True)

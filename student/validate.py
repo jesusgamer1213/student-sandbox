@@ -6,7 +6,7 @@ from pathlib import Path
 from datetime import datetime
 
 SCRIPT_DIR = Path(__file__).parent
-CACHE_DIR = SCRIPT_DIR.parent / "cached_scripts"
+CACHE_DIR = Path("/tmp/student_sandbox_cache")
 LOGS_DIR = SCRIPT_DIR.parent / "logs"
 
 CACHE_DIR.mkdir(exist_ok=True)
